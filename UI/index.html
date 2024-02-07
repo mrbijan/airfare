@@ -125,7 +125,7 @@
 
                                 </div>
 
-                                <a href="#mobile-menu-01" data-toggle="collapse" class="mobile-menu-toggle">
+                                <a href="javascript:void(0);" data-toggle="collapse" class="mobile-menu-toggle">
                                     Mobile Menu Toggle
                                 </a>
 
@@ -1063,7 +1063,10 @@
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 
     <script>
+        
         $( function() {
+
+            $('.mobile-menu-toggle').click(function() {$('.mobile-menu').toggleClass('collapse'); });
             $( "#d_checkin" ).datepicker({
                 dateFormat: "dd M, y"
             });

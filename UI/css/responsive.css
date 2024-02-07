@@ -15575,6 +15575,13 @@ article .details h4 {
     color:black;
 }
 
+.pagecenter{
+    width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   background-color: #efefef;
